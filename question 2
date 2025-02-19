@@ -1,0 +1,39 @@
+public class banking {
+public static void generateTransactionHistory(int transactions, String accountHolder){
+    System.out.println(accountHolder+"deposited");
+    System.out.print("$"+transactions);
+    System.out.println(accountHolder+"withdrew"+"$"+transactions);
+}
+public static void sortTransactions( int transactions){
+    for(transaction>=0;transaction++)
+{
+    System.out.println(transaction);
+}System.out,println(,);
+}
+    public static void largeTransactions(int transactions, StringaccountHolder){
+    {
+            delete(min(transactions));
+            System.out.println("the transactions above min transactins are"+transactions);
+    
+
+    }
+
+    public static void calculateBalance(int transaction, String accountHolder){
+         If(accountholder==null){
+            System.out.println("no transaction found");
+        
+         } else{
+            System.out.println("your transaction is"+transaction);
+        
+         }
+    }public static void main(String[]args){
+        accountholder=nextString(System.in);
+         transaction= nextInt(System.in);
+        calculateBalance(trancaction,accountHolder);
+        largeTransactions(transactions,accountHolder);
+        sortTransactions(transactions);
+        generateTransactionHistory(transactions,accountHolder);
+
+    }
+}
+}
