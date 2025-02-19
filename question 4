@@ -1,0 +1,21 @@
+public class bootcamp{
+    public static void getuniqueprojects(int votes){
+        System.out.println("uniqueprojects"+set(votes));
+
+    }
+    public static void findwinningprojects(int votes){
+     System.out.println("the maximum votes are"+max(votes));
+    }
+    public static void countProjectVotes(int votes){
+        const votes=[{ student:"Aline",project:"project 1"}, {student:"Prince",project:"Project 2"}];
+        int project1votes=nextInt(System.in);
+        int project2votes=nextInt(System.in);
+        System.out.println(project:+project1votes+","+project:+project2votes);
+    } public static void main(String[]args){
+        int votes=nextInt(System.in);
+         getuniqueprojects(votes);
+         findwinningprojects(votes);
+        countProjectVotes(votes);
+        System.out.println("reduce is very useful for counting instead of using for loops which in some cases require alot of time to write and also to understand in the backend environment, for loop may be inacurate compared to reduce which is most of the times trusted");
+    }
+}
