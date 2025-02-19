@@ -1,0 +1,27 @@
+public class main{
+
+    public static void reverseWord(String sent){
+        String sent={"hello world"};
+        System.out.println("hello world"+reverse(hello world));
+    }
+    power(int base,int exponent){
+       int base= 6;
+       int exponent=4;
+       power(6,7);
+       System.out.println("the power of 6 to 7 is"+power(6,7));
+
+
+    }
+    public static sumDigits(int n){
+       int n=123;
+       
+      int count=n.count();
+      count=count+count;
+    }System.out.println("the addition of 123 is"+count);
+    public static void main(String[]args){
+        sumDigits(names);
+        power(base,exponent);
+        reverseWords(sentence);
+        System.out.println("recursion is less efficient than iteration mainly because itb has to be called in the program to extract the out put and the data kept in one function can not be acessed by other functionm, in companies with many data they use iteration instead of recursion");
+    }
+}
